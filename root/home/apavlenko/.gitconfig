@@ -1,0 +1,10 @@
+[user]
+	name = Aleksei Pavlenko
+	email = alekseipavlenko@mailserver.org
+[push]
+	default = simple
+[core]
+	editor = vim
+	excludesfile = /home/apavlenko/.gitignore
+[merge]
+	tool = meld
