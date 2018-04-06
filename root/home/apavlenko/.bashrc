@@ -154,3 +154,9 @@ set_gxx() {
     sudo ln -sf ${CC} /usr/bin/gcc
     sudo ln -sf ${CXX} /usr/bin/g++
 }
+
+shopt -s cdable_vars
+export locl="__local"
+export smpro="$HOME/Documents/some_project"
+
+source /usr/share/bash-completion/bash_completion
