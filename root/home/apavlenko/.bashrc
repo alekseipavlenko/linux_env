@@ -157,6 +157,7 @@ set_gxx() {
 
 shopt -s cdable_vars
 export locl="__local"
+export downs="$HOME/Downloads"
 export smpro="$HOME/Documents/some_project"
 
 source /usr/share/bash-completion/bash_completion
