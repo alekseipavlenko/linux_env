@@ -1,0 +1,5 @@
+feat component: short description (72 characters at most)
+
+full description
+
+Relates: TASK-XXX
