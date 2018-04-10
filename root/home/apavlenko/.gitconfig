@@ -8,3 +8,5 @@
 	excludesfile = ~/.gitignore
 [merge]
 	tool = meld
+[commit]
+	template = ~/.gitmessage.txt
