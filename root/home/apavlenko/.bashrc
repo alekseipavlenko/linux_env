@@ -148,6 +148,8 @@ __git_complete grmt _git_remote
 alias cl='clear'
 alias rmd='rm -rf'
 
+alias gr="$HOME/utils/grep.sh"
+
 source ${HOME}/.setenv
 
 set_gxx() {
