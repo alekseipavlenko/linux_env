@@ -128,6 +128,9 @@ alias gcho='git checkout'
 alias grbs='git rebase'
 alias glg='git log'
 alias grmt='git remote'
+alias gprn='git fetch --prune --all'
+alias gupm='git fetch upstream && git checkout master && git rebase upstream/master && git push'
+alias gupd='git fetch upstream && git checkout develop && git rebase upstream/develop && git push'
 
 source ${HOME}/.git-completion.sh
 __git_complete gsmo _git_submodule
